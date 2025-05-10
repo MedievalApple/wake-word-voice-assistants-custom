@@ -2,9 +2,9 @@ substitutions:
   name: m5stack-atom-echo
   friendly_name: M5Stack Atom Echo
   micro_wake_word_model: okay_nabu  # alexa, hey_jarvis, hey_mycroft are also supported
-  nabu: github://MedievalApple/micro-wake-word-models/models/okay_nabu.json@main
-  jarvis: github://MedievalApple/micro-wake-word-models/models/hey_jarvis.json@main
-  baymax: github://MedievalApple/micro-wake-word-models/models/hey_baymax.json@main
+  nabu: github://MedievalApple/micro-wake-word-models-custom/models/okay_nabu.json@main
+  jarvis: github://MedievalApple/micro-wake-word-models-custom/models/hey_jarvis.json@main
+  baymax: github://MedievalApple/micro-wake-word-models-custom/models/hey_baymax.json@main
 
 esphome:
   name: ${name}
